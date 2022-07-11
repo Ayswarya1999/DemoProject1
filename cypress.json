@@ -17,6 +17,6 @@
   "trashAssetsBeforeRuns": true,
   "env":{
     "Enviroment":"Test"
-     }
+    }
    
 }
