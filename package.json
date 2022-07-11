@@ -20,7 +20,7 @@
     "test:demo": "npm run pretest && npm run demo && npm run posttest",
     "V2Project": "cypress run --spec \"cypress/integration/WELLV2Project_UIAutomation/*\",--browser chrome",
     "Hsr": "cypress run --spec \"cypress/integration/WELLHealthSafety_UIAutomation/*\",--browser chrome",
-    "WPR": "cypress run --spec \"cypress/integration/WELLPerformance_UIAutomation/*\",--browser chrome",
+    "WPR": "cypress run --spec \"cypress/integration/WELLPerformance_UIAutomation/*\" --headed --browser chrome",
     "Exam_Faculty": "cypress run --spec \"cypress/integration/WELLAP_Faculty_Membership_Automation/*\",--browser chrome",
     "fileCreateZip": "node zipfIlecreation.js",
     "deleteResultFile": "node DeleteResult.js",
